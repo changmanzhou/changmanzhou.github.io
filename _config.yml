@@ -22,8 +22,8 @@ repository               : "changmanzhou/changmanzhou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Image_0426"
+  name             : "Zhou Changman"
   pronouns         : # example: "she/her"  
   bio              : "MSc student in Plant Nutrition, focusing on yield gap analysis, remote sensing, and soil limitation factors"
   location         : "Beijing, China"
