@@ -11,9 +11,14 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+**China Agricultural University**, Beijing, China  
+M.S. in Plant Nutrition (2024–2026, Expected)  
+
+**Northwest A&F University**, Yangling, China  
+Visiting Student in Resources and Environmental Science (2022–2023)  
+
+**Tarim University**, Alar, China  
+B.S. in Agricultural Resources and Environment (2020–2024)  
 
 Work experience
 ======
