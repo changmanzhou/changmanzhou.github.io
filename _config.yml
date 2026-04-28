@@ -22,7 +22,7 @@ repository               : "changmanzhou/changmanzhou.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Image_0426"
+  avatar           : "/images/ChatGPT Image 2026年4月28日 20_48_49.png"
   name             : "Zhou Changman"
   pronouns         : # example: "she/her"  
   bio              : "MSc student in Plant Nutrition, focusing on yield gap analysis, remote sensing, and soil limitation factors"
