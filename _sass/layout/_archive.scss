@@ -84,6 +84,30 @@
   }
 }
 
+.moment__thumbnail {
+  max-width: 360px;
+  margin: 0.75em 0 2em;
+
+  a {
+    display: block;
+    border-radius: $border-radius;
+    overflow: hidden;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+}
+
+.archive__item:hover {
+  .moment__thumbnail a {
+    box-shadow: 0 0 10px rgba(#000, 0.18);
+  }
+}
+
 
 /*
    List view

@@ -14,7 +14,7 @@
     {% endif %}
 
     {% if moment.header.teaser %}
-      <p class="archive__item-teaser">
+      <p class="moment__thumbnail">
         <a href="{{ base_path }}{{ moment.url }}" rel="permalink">
           <img src="{{ moment.header.teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ title | strip_html }}">
         </a>
