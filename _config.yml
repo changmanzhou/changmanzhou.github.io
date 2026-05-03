@@ -232,6 +232,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  moments:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -288,6 +291,15 @@ defaults:
     values:
       layout: talk
       author_profile: true
+      share: true
+  # _moments
+  - scope:
+      path: ""
+      type: moments
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
       share: true
 
 
