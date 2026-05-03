@@ -1,0 +1,24 @@
+{% include base_path %}
+
+{% assign moment = include.moment %}
+{% assign title = moment.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ moment.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    {% if moment.date %}
+      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ moment.date | date_to_xmlschema }}">{{ moment.date | date: "%B %d, %Y" }}</time></p>
+    {% endif %}
+
+    {% if moment.header.teaser %}
+      <p class="archive__item-teaser">
+        <a href="{{ base_path }}{{ moment.url }}" rel="permalink">
+          <img src="{{ moment.header.teaser | prepend: "/images/" | prepend: base_path }}" alt="{{ title | strip_html }}">
+        </a>
+      </p>
+    {% endif %}
+  </article>
+</div>
